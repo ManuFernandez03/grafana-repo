@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: grafana-repo
+  description: mi repo para tests de grafana
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    grafana/dashboard-selector: title == 'Node Exporter Full'
+  
+    
+spec:
+  type: service
+  owner: admins
+  system: system1
+  lifecycle: experimental
