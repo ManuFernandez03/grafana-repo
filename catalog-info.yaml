@@ -6,6 +6,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     grafana/dashboard-selector: title == 'Node Exporter Full'
+    grafana/overview-dashboard: 'https://manufernandezalvarez2003.grafana.net/d/rYdddlPWk/node-exporter-full?orgId=1&from=now-24h&to=now&timezone=browser&var-datasource=default&var-job=&var-node=&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=1m'
   
     
 spec:
