@@ -7,6 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     grafana/dashboard-selector: "title == 'dummy-dashboard'"
     grafana/overview-dashboard: 'http://localhost:9998/d/fefi541fx6lmod/dummy-dashboard'
+    grafana/alert-label-selector: "nombre=alerta1"
   
     
 spec:
